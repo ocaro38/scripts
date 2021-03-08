@@ -1,3 +1,3 @@
 # scripts
-Repository of scripts written for various purposes
-Hi, I'm C, an engineer in the US dabbling in coding
+Hi, I'm C, an engineer in the US
+This is my repository of scripts written for various purposes
