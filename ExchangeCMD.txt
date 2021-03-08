@@ -1,0 +1,1 @@
+findstr /snip /c:”Download failed and temporary file” “%PROGRAMFILES%\Microsoft\Exchange Server\V15\Logging\OABGeneratorLog\*.log”

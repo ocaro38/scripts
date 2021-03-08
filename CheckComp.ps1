@@ -1,0 +1,1 @@
+﻿Import-Csv -Path (Get-ChildItem -Recurse -Path “$env:PROGRAMFILES\Microsoft\Exchange Server\V15\Logging\HttpProxy” -Filter ‘*.log’).FullName | Where-Object {  $_.AuthenticatedUser -eq ” -and $_.AnchorMailbox -like ‘ServerInfo~*/*’" } | select DateTime, AnchorMailbox

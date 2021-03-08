@@ -1,0 +1,1 @@
+Select-String -Path “$env:PROGRAMFILES\Microsoft\Exchange Server\V15\Logging\ECP\Server\*.log” -Pattern ‘Set-.+VirtualDirectory’

@@ -1,0 +1,1 @@
+Get-EventLog -LogName Application -Source “MSExchange Unified Messaging” -EntryType Error | Where-Object { $_.Message -like “*System.InvalidCastException*” }
