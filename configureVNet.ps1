@@ -2,7 +2,7 @@
 #Creates a virtual network called my-vnet witeh a 10.0.0.0/16 network.
 #Creates a subnet in my-vnet called default with the network address of 10.0.0.24
 $Location="EastUS2"
-$vmNetRGName="vm-network"
+$vmNetRGName="vm-networks"
 $subN1Name="default"
 $subN2Name="vm-server"
 $virtualNet1Name="myVnet"
