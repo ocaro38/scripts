@@ -1,0 +1,7 @@
+az network vnet create \
+    --resource-group <resourcegroup-id> \
+    --name  <nameOfVNet> \
+    --address-prefix <network in CIDR notation> \
+    --subnet-name <name of subnet> \
+    --subnet-prefix <network in CIDR notation> \
+    --location <azure region>
